@@ -10,4 +10,7 @@ python app.py
 ### 注意事项（Windows）
 
 - **处理 `.m4a`**：`pydub` 依赖 **ffmpeg**。请先安装 ffmpeg 并确保 `ffmpeg` 在 PATH 中可用。
+
 - **无 GPU 的机器**：已兼容 CPU（transformers pipeline 使用 `device=-1`）。
+
+thanks to https://huggingface.co/biodatlab/whisper-th-large-v3-combined
