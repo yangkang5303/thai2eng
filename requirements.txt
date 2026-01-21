@@ -1,0 +1,10 @@
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.26.0
+sounddevice>=0.4.6
+numpy>=1.24.0
+soundfile>=0.12.1
+scipy>=1.11.0
+sentencepiece>=0.2.0
+pydub>=0.25.1 
+sacremoses>=0.1.1
